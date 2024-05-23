@@ -18,10 +18,14 @@ service:
   port: 3080 # Assuming Teleport's service port
 
 ingress:
-  enabled: false
+  enabled: true
   className: ""
   annotations: {}
-  hosts: []
+  hosts:
+    - host: mukesh.teleport.sh # Set this to your Teleport host name
+      paths:
+        - path: /argocd
+          pathType: ImplementationSpecific
   tls: []
 
 resources: {}
