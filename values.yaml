@@ -1,0 +1,4 @@
+teleport:
+  proxy:
+    service:
+      type: LoadBalancer
