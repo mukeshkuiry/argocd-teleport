@@ -1,13 +1,13 @@
 teleport:
-  clusterName: "teleport.platform.justk8s.io"
+  clusterName: "mukesh.teleport.sh"
   auth_service:
     authentication:
       type: github
   github:
-    - client_id: "your-github-client-id"
-      client_secret: "your-github-client-secret"
-      org: "justk8s"
+    - client_id: Ov23liVEg9x4SXO8mfcF
+      client_secret: b2aace4a1b28b6651e37b2d09e94750a039847db
+      org: zap-fuels
       teams_to_logins:
-        - organization: "justk8s"
-          team: "dev-team"
-          logins: ['user1', 'user2']
+        - organization: zap-fuels
+          team: dev
+          logins: ['admin', 'mukeshkuiry', 'access']

@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/mukeshkuiry/deployments'
     targetRevision: HEAD
-    path: 'installations/example-installation/argocd'
+    path: installations/example-installation/argocd
     helm:
       valueFiles:
         - values.yaml
