@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/mukeshkuiry/deployments'
     targetRevision: HEAD
-    path: installations/example-installation/teleport
+    path: chart/teleport
     helm:
       valueFiles:
         - values.yaml
