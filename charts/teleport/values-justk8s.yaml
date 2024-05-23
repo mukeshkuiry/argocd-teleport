@@ -1,0 +1,13 @@
+teleport:
+  clusterName: "teleport.platform.justk8s.io"
+  auth_service:
+    authentication:
+      type: github
+  github:
+    - client_id: "your-github-client-id"
+      client_secret: "your-github-client-secret"
+      org: "justk8s"
+      teams_to_logins:
+        - organization: "justk8s"
+          team: "dev-team"
+          logins: ['user1', 'user2']

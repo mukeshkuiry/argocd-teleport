@@ -1,0 +1,16 @@
+teleport:
+  clusterName: teleport.platform.justk8s.io
+  auth:
+    enabled: true
+  proxy:
+    enabled: true
+  github:
+    enabled: true
+    clientID: YOUR_GITHUB_CLIENT_ID
+    clientSecret: YOUR_GITHUB_CLIENT_SECRET
+    redirectURL: https://teleport.platform.justk8s.io/v1/webapi/github/callback
+    teamsToLogins:
+      - organization: your-github-org
+        team: your-github-team
+        logins:
+          - admin
