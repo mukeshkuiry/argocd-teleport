@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/mukeshkuiry/deployments'
+    repoURL: 'https://github.com/justk8s/deployments'
     targetRevision: HEAD
-    path: charts/teleport
+    path: installations/example-installation/teleport
     helm:
       valueFiles:
         - values.yaml
